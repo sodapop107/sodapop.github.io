@@ -40,23 +40,6 @@ function FP_getObjectByID(id,o) {//v1.0
 <meta name="GENERATOR" content="Microsoft FrontPage 6.0">
 <title>SODAPOP</title>
 
-<!-- ===== NEW AUDIO ===== -->
-<audio id="bgm" loop>
-  <source src="Star_Trek_Voyager.mp3" type="audio/mpeg">
-</audio>
-
-<script>
-  const bgm = document.getElementById("bgm");
-
-  function startMusic() {
-    bgm.play().catch(() => {});
-    document.removeEventListener("click", startMusic);
-  }
-
-  document.addEventListener("click", startMusic);
-</script>
-<!-- =================== -->
-
 </head>
 <body text="#FFFF00" bgcolor="#000000" link="#FF0000" vlink="#551A8B" alink="#FF0000" onload="FP_preloadImgs(/*url*/'button5.jpg', /*url*/'button6.jpg', /*url*/'button8.jpg', /*url*/'button9.jpg', /*url*/'buttonE.jpg', /*url*/'buttonF.jpg', /*url*/'button19.jpg', /*url*/'button1A.jpg', /*url*/'button33.jpg', /*url*/'button34.jpg')" background="startile1.gif" leftmargin="80" rightmargin="80">
 
